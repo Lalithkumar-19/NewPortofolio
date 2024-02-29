@@ -1,9 +1,11 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
 import Pf from "../asserts/myprofile.jpg";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 function Hero() {
     return (
-        <div className='text-white'>
+        <div className='text-white' id='hero'>
             <div className='max-w-[800px] mt-[100px] w-full h-screen mx-auto text-center flex flex-col'>
                 <p className='text-[#00df9a] font-bold p-1'>Growing with Passion in tech</p>
                 <img className='w-32 h-32 rounded-full mx-auto mt-2' src={Pf} alt='my pic' />
@@ -22,7 +24,7 @@ function Hero() {
 
                 </div>
                 <p className='md:text-xl text-xl font-bold text-gray-500 '>Hire me to get work with you and experience my professional working style.</p>
-                <button className='bg-[#00df9a] w-[200px] rounded-full font-medium my-6 mx-auto py-3 text-black'><a href='#msg_me' >Get me a coffe</a></button>
+                <button className='bg-[#00df9a] w-[200px] rounded-full font-medium my-6 mx-auto py-3 text-black'><AnchorLink href='#msg_me' >Get me a coffe</AnchorLink></button>
             </div>
 
         </div>

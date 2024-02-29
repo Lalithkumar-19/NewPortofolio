@@ -1,8 +1,9 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { MdOutlineArrowUpward } from "react-icons/md";
 import Aos from 'aos';
 import "aos/dist/aos.css";
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 function Education() {
     useEffect(() => {
         Aos.init({
@@ -15,6 +16,7 @@ function Education() {
     }, [])
     return (
         <div className='max-w-[1240px] flex flex-col px-3 mx-auto text-white' id='education'>
+            <AnchorLink className='fixed bottom-4 right-7 text-[white] cursor-pointer' href='#navbar'><MdOutlineArrowUpward/></AnchorLink>
             <h2 className='font-bold underline underline-offset-4 text-center text-5xl py-4 mx-auto '>Education</h2>
 
 

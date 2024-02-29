@@ -14,7 +14,7 @@ function Contact() {
             </p>
             <div className='flex flex-col mt-7 w-full text-xl gap-3 font-bold items-center justify-center font-serif'>
                 MY  INSTAGRAM :  <span className='text-white'> <a className='text-white' target="blank" href='https://www.instagram.com/lalithkumar_005/'><FaInstagram /></a></span>
-                MY LINKERDIN: <span className='text-white'><a className='text-white' target="blank" href='https://www.linkedin.com/in/lalith-kumar-m-39a31a250'><FaLinkedin /></a></span>
+                MY LINKERDIN: <span className='text-white'><a className='text-white' target="blank" href='https://www.linkedin.com/in/lalithkumar005/'><FaLinkedin /></a></span>
                 MY GITHUB  :<span className='text-white'><a className='text-white' target="blank" href='https://github.com/Lalithkumar-19'><FaGithubSquare /></a></span>
                 MY TWITTER: <span className='text-white'><a className='text-white' target="blank" href='https://github.com/Lalithkumar-19'><FaSquareXTwitter /></a></span>
                 My E-mail :<a href='mailto:"lalithdev123@gmail.com"' ><span> lalithkumar19180@gmail.com</span></a>
