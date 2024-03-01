@@ -8,7 +8,7 @@ function Education() {
     useEffect(() => {
         Aos.init({
             offset: 200,
-            duration: 600,
+            duration: 700,
             easing: 'ease-in-sine',
             delay: 200,
         });
