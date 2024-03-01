@@ -7,8 +7,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 function Education() {
     useEffect(() => {
         Aos.init({
-            offset: 200,
-            duration: 700,
+            offset: 100,
+            duration: 600,
             easing: 'ease-in-sine',
             delay: 200,
         });
