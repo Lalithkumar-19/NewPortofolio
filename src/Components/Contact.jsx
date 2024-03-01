@@ -17,7 +17,7 @@ function Contact() {
                 MY LINKERDIN: <span className='text-white'><a className='text-white' target="blank" href='https://www.linkedin.com/in/lalithkumar005/'><FaLinkedin /></a></span>
                 MY GITHUB  :<span className='text-white'><a className='text-white' target="blank" href='https://github.com/Lalithkumar-19'><FaGithubSquare /></a></span>
                 MY TWITTER: <span className='text-white'><a className='text-white' target="blank" href='https://github.com/Lalithkumar-19'><FaSquareXTwitter /></a></span>
-                My E-mail :<a href='mailto:"lalithdev123@gmail.com"' ><span> lalithkumar19180@gmail.com</span></a>
+                My E-mail :<a href='mailto:"lalithdev123@gmail.com"' ><span> lalithdev123@gmail.com</span></a>
 
             </div>
 
