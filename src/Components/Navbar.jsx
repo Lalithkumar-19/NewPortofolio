@@ -28,9 +28,6 @@ function Navbar() {
                 <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>LALITH DEV.</h1>
                 <ul className='p-4 uppercase'>
                     <div onClick={handleNav} className='block md:hidden sm:block'>
-                        {nav ? <AiOutlineClose size={20} /> :
-                            <AiOutlineMenu size={20} />}
-
                         <li className='p-4 border-b border-gray-600' onClick={() => { setNav(false) }}><AnchorLink href='#education'>Education</AnchorLink></li>
                         <li className='p-4 border-b border-gray-600' onClick={() => { setNav(false) }}><AnchorLink href='#skills'>Tech_stack</AnchorLink></li>
                         <li className='p-4 border-b border-gray-600' onClick={() => { setNav(false) }}><AnchorLink href='#services' >Services</AnchorLink></li>
