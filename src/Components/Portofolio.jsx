@@ -62,6 +62,15 @@ function Portofolio() {
             domain: "Fullstack"
 
         },
+        {
+            project_Name: "Edudev Website Fullstack",
+            pic: "https://camo.githubusercontent.com/47f40771ec388e120f05672d5f4b90e3ed92dcc59fbd1105dd00cb5e4a345ea5/68747470733a2f2f692e696d6775722e636f6d2f766555787374382e706e67",
+            codeLink: "https://github.com/Lalithkumar-19/Edudev-Frontend",
+            liveLink: "https://edudevwebonline.netlify.app/",
+            Description: "EduDev is an innovative online course platform designed to revolutionize the way users engage with educational content. Unlike a mere clone, EduDev offers a unique blend of features tailored to enhance the learning experience for both instructors and students alike",
+            domain: "Fullstack"
+
+        },
 
     ]
     return (
