@@ -95,7 +95,7 @@ function Portofolio() {
     },
     {
       project_Name: "Simple Calculator",
-      pic: "https://imgur.com/d986ff29-4812-414f-b765-d508d8ab224a",
+      pic: "https://i.imgur.com/kj7bQdB.png",
       codeLink: "https://github.com/Lalithkumar-19/calculator-js",
       liveLink: "https://github.com/Lalithkumar-19/calculator-js",
       Description:
