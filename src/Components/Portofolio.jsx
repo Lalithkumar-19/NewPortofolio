@@ -84,6 +84,51 @@ function Portofolio() {
         "A basic To-Do application using ReactJS that allows users to add, view, and delete tasks. This application should showcase my understanding of HTML, CSS, JavaScript, React components, hooks, and state management using Redux.",
       domain: "React and Redux state management",
     },
+    {
+      project_Name: "Word Counter",
+      pic: "https://i.imgur.com/jyRZ1wt.png",
+      codeLink: "https://github.com/Lalithkumar-19/WORD-COUNTER",
+      liveLink: "https://lalithwordcounter.netlify.app/",
+      Description:
+        "The Word counter is builded by using html and css and javascript in my initial days of practicing code.This simple tool is built with HTML, CSS, and JavaScript to help users count words and sentences in the text they input. It's designed for quick and easy word and sentence counting.",
+      domain: "Front end and Javascript ",
+    },
+    {
+      project_Name: "Simple Calculator",
+      pic: "https://imgur.com/d986ff29-4812-414f-b765-d508d8ab224a",
+      codeLink: "https://github.com/Lalithkumar-19/calculator-js",
+      liveLink: "https://github.com/Lalithkumar-19/calculator-js",
+      Description:
+        "Simple Calculator, a user-friendly web application built with HTML, CSS, and JavaScript. This calculator is designed to perform basic arithmetic operations, making math calculations straightforward and convenient.",
+      domain: "Frontend and Javascript",
+    },
+    {
+      project_Name: "Node Mailer Server API ",
+      pic: "https://form.io/wp-content/uploads/thumbnail-formio-backend-api-integration.webp",
+      codeLink: "https://github.com/Lalithkumar-19/nodemailer_backend",
+      liveLink: "https://github.com/Lalithkumar-19/nodemailer_backend",
+      Description:
+        "Node Mailer Server API for my portfolio contact form! This API empowers my portfolio website by allowing visitors to send you personal messages directly. Built with Node.js, Express.js, and Node Mailer, it provides a reliable and secure means for users to contact you and share their thoughts or inquiries",
+      domain: "Backend API",
+    },
+    {
+      project_Name: "Digital Watch",
+      pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7iu7M6wtEMHBK2Z5wdXUPHiCpFm96A4_Bg&s",
+      codeLink: "https://github.com/Lalithkumar-19/digital-watch",
+      liveLink: "https://lalithkumar-19.github.io/digital-watch/",
+      Description:
+        "A simple digital watch build with Html ,css ,javascript  build in my initial days ",
+      domain: "Static Html,css ,js",
+    },
+    {
+      project_Name: "Evergreen ECE Web ",
+      pic: "https://i.imgur.com/kj7bQdB.png",
+      codeLink: "https://github.com/Lalithkumar-19/EVERGREEN-ece-website",
+      liveLink: "https://evergreenece.w3spaces.com/",
+      Description:
+        "This is the website that i had build in my initial days .This website having my class PDF's subject to subject and lesson to lesson . I dedicated this to my class. ",
+      domain: "Static Html,css ,js",
+    },
   ];
   return (
     <div className="flex flex-col w-full text-[white] p-4" id="portofolio">
