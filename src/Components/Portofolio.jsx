@@ -12,13 +12,13 @@ function Portofolio() {
   }, []);
   const projects = [
     {
-      project_Name: "BlogWebiste Landing responsive Page",
-      pic: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/awqnouxukwefdkaqt5iq.jpg",
-      codeLink: "https://github.com/Lalithkumar-19/BlogWebsite_Landing_page",
-      liveLink: "https://lalithkumar-19.github.io/BlogWebsite_Landing_page/",
+      project_Name: "Edudev Website Fullstack",
+      pic: "https://camo.githubusercontent.com/47f40771ec388e120f05672d5f4b90e3ed92dcc59fbd1105dd00cb5e4a345ea5/68747470733a2f2f692e696d6775722e636f6d2f766555787374382e706e67",
+      codeLink: "https://github.com/Lalithkumar-19/Edudev-Frontend",
+      liveLink: "https://edudevwebonline.netlify.app/",
       Description:
-        "This is the landing page of a simple Blog website ,build by taking task from frontendmentor.com to leverage my frontend skills.Built with Semantic HTML5 marku ,CSS custom properties,Flexbox, CSS Grid ,Mobile-first workflow",
-      domain: "Frontend",
+        "EduDev is an innovative online course platform designed to revolutionize the way users engage with educational content. Unlike a mere clone, EduDev offers a unique blend of features tailored to enhance the learning experience for both instructors and students alike",
+      domain: "Fullstack",
     },
     {
       project_Name: "React Weather App",
@@ -29,6 +29,16 @@ function Portofolio() {
         "React Weather App, a user-friendly and feature-rich application designed to keep you updated on global weather conditions and forecasts. Powered by React, this app leverages the OpenWeather API, React-Accordion for data organization, and an intuitive autocomplete search bar to make accessing weather information a breeze.Weather Information: Get real-time weather updates, including temperature, humidity, wind speed, and more.ech Stack: React - For the front-end user interface. OpenWeather API - Providing real-time weather data. React-Accordion - Organizing weather data into collapsible sections. Autocomplete Search Bar - Enhancing user experience in searching for cities.",
       domain: "API",
     },
+    {
+      project_Name: "BlogWebiste Landing responsive Page",
+      pic: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/awqnouxukwefdkaqt5iq.jpg",
+      codeLink: "https://github.com/Lalithkumar-19/BlogWebsite_Landing_page",
+      liveLink: "https://lalithkumar-19.github.io/BlogWebsite_Landing_page/",
+      Description:
+        "This is the landing page of a simple Blog website ,build by taking task from frontendmentor.com to leverage my frontend skills.Built with Semantic HTML5 marku ,CSS custom properties,Flexbox, CSS Grid ,Mobile-first workflow",
+      domain: "Frontend",
+    },
+
     {
       project_Name: "Responsive css page",
       pic: "https://github.com/Lalithkumar-19/responsive_css_page/raw/main/design/desktop-preview.jpg",
@@ -66,15 +76,7 @@ function Portofolio() {
         "This is fullstack app ,I learned MONGODB CRUD operations with node js and express js by building this project alone.",
       domain: "Fullstack",
     },
-    {
-      project_Name: "Edudev Website Fullstack",
-      pic: "https://camo.githubusercontent.com/47f40771ec388e120f05672d5f4b90e3ed92dcc59fbd1105dd00cb5e4a345ea5/68747470733a2f2f692e696d6775722e636f6d2f766555787374382e706e67",
-      codeLink: "https://github.com/Lalithkumar-19/Edudev-Frontend",
-      liveLink: "https://edudevwebonline.netlify.app/",
-      Description:
-        "EduDev is an innovative online course platform designed to revolutionize the way users engage with educational content. Unlike a mere clone, EduDev offers a unique blend of features tailored to enhance the learning experience for both instructors and students alike",
-      domain: "Fullstack",
-    },
+
     {
       project_Name: "To-Do application using Reactjs & Redux js",
       pic: "https://i.imgur.com/5AzgCNl.png",
@@ -83,6 +85,15 @@ function Portofolio() {
       Description:
         "A basic To-Do application using ReactJS that allows users to add, view, and delete tasks. This application should showcase my understanding of HTML, CSS, JavaScript, React components, hooks, and state management using Redux.",
       domain: "React and Redux state management",
+    },
+    {
+      project_Name: "Evergreen ECE Web ",
+      pic: "https://i.imgur.com/kj7bQdB.png",
+      codeLink: "https://github.com/Lalithkumar-19/EVERGREEN-ece-website",
+      liveLink: "https://evergreenece.w3spaces.com/",
+      Description:
+        "This is the website that i had build in my initial days .This website having my class PDF's subject to subject and lesson to lesson . I dedicated this to my class. ",
+      domain: "Static Html,css ,js",
     },
     {
       project_Name: "Word Counter",
@@ -95,7 +106,7 @@ function Portofolio() {
     },
     {
       project_Name: "Simple Calculator",
-      pic: "https://i.imgur.com/kj7bQdB.png",
+      pic: "https://i.imgur.com/TXwsRxp.png",
       codeLink: "https://github.com/Lalithkumar-19/calculator-js",
       liveLink: "https://github.com/Lalithkumar-19/calculator-js",
       Description:
@@ -118,15 +129,6 @@ function Portofolio() {
       liveLink: "https://lalithkumar-19.github.io/digital-watch/",
       Description:
         "A simple digital watch build with Html ,css ,javascript  build in my initial days ",
-      domain: "Static Html,css ,js",
-    },
-    {
-      project_Name: "Evergreen ECE Web ",
-      pic: "https://i.imgur.com/kj7bQdB.png",
-      codeLink: "https://github.com/Lalithkumar-19/EVERGREEN-ece-website",
-      liveLink: "https://evergreenece.w3spaces.com/",
-      Description:
-        "This is the website that i had build in my initial days .This website having my class PDF's subject to subject and lesson to lesson . I dedicated this to my class. ",
       domain: "Static Html,css ,js",
     },
   ];
