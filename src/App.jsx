@@ -19,7 +19,7 @@ function App() {
         <Skills />
         <Services />
         <Certifications />
-        <Badges />
+        {/* <Badges /> */}
         <Portofolio />
         <Contact />
         <Messageme />
