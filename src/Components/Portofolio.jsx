@@ -10,7 +10,18 @@ function Portofolio() {
     });
     Aos.refresh();
   }, []);
+
   const projects = [
+    {
+      project_Name: "Collabrative Docs",
+      pic: "https://i.ibb.co/QbnPbj1/Screenshot-2024-08-11-100859.png",
+      codeLink: "https://github.com/Lalithkumar-19/Realtime-Docs-collab",
+      liveLink:
+        "https://collabeditor-fdf37nbam-lalithkumar-19s-projects.vercel.app/",
+      Description:
+        "A real-time collaborative document editing application built with Node.js, Socket.io, React.js (using Vite), and Quill.js. This app allows multiple users to edit a document simultaneously, with changes being reflected in real-time across all connected clients",
+      domain: "Realtime-communication",
+    },
     {
       project_Name: "Edudev Website Fullstack",
       pic: "https://camo.githubusercontent.com/47f40771ec388e120f05672d5f4b90e3ed92dcc59fbd1105dd00cb5e4a345ea5/68747470733a2f2f692e696d6775722e636f6d2f766555787374382e706e67",
